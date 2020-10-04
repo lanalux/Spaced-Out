@@ -15,8 +15,10 @@ public class Radio : MonoBehaviour
    public void RadioButton(){
        if(radioOn){
            song.Stop();
+           radioOn=false;
        } else {
            song.Play();
+           radioOn=true;
        }
    }
 
