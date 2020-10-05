@@ -44,7 +44,7 @@ public class HUD : MonoBehaviour
     float dailyExpenses = 50.0f;
 
     [HideInInspector] public float currentMoney = 0;
-    float startingMoney = 5000.0f;
+    float startingMoney = 50.0f;
     float startSpirit = 100.0f;
     float startHealth = 100.0f;
     float startShip = 100.0f;
